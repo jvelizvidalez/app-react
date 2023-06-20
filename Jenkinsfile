@@ -5,6 +5,9 @@ pipeline {
     }
 
   }
+  tools {
+    nodejs 'nodejs'
+  }
   stages {
     stage('Build') {
       steps {
