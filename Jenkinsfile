@@ -1,10 +1,4 @@
 pipeline {
-  agent {
-    node {
-      label 'NodeJS'
-    }
-
-  }
   tools {
     nodejs 'nodejs'
   }
